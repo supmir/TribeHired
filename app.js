@@ -28,7 +28,7 @@ app.get("/top", async (req, res) => {
             {
               post_id: post.id,
               post_title: post.title,
-              post_body: post.bod,
+              post_body: post.body,
               total_number_of_comments: comments.data.length,
             },
           ];
